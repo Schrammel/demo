@@ -1,0 +1,20 @@
+version: "3.1"
+
+services:
+  mongodb:
+    image: tutum/mongodb
+    restart: always
+    ports:
+      - 27017:27017
+      - 28017:28017
+    environment:
+      AUTH: "no"
+
+  websocket:
+    image: registry.syonet.com/whatsapp/server-messenger:master
+    restart: always
+    ports:
+      - 3002:3000
+    environment:
+      PORT: "3000"
+      MONGO: "mongodb://mongodb:27017/syo_server_messenger_wa"

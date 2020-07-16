@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 53 53"
+   width="53"
+   height="53"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="bg_whatsapp.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata31">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1052"
+     id="namedview29"
+     showgrid="false"
+     inkscape:zoom="12.594506"
+     inkscape:cx="27.926952"
+     inkscape:cy="29.064192"
+     inkscape:window-x="1366"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg27" />
+  <defs
+     id="defs3">
+    <circle
+       id="camera-SVGID_1_"
+       cx="26.5"
+       cy="26.5"
+       r="25.5" />
+  </defs>
+  <clipPath
+     id="camera-SVGID_2_">
+    <use
+       xlink:href="#camera-SVGID_1_"
+       overflow="visible"
+       id="use5" />
+  </clipPath>
+  <g
+     clip-path="url(#camera-SVGID_2_)"
+     id="g20">
+    <path
+      fill="#8333A3"
+      d="M33.7 33.7l-6.9-.3-11.9 18.4c5.9 3.6 19.8 4.4 28.8-3.2L35 32.8c-.3.2-.8.9-1.3.9z"
+    />
+    <path
+      fill="#702A8C"
+      d="M19.2 33.7c-1 0-1.8-.8-1.8-1.8v-1.6l-19-.5c.1 12 8.7 20 17.4 23.5l11.3-19.5h-7.9z"
+    />
+    <path
+      fill="#9A37A3"
+      d="M17.4 21.1c0-.9 1-1.8 1.9-1.9L10.9 4.1C4.2 7.1-1.8 16.9-1.7 30.9h19.1v-9.8z"
+    />
+    <path
+      fill="#CE64DE"
+      d="M19.2 19.3l9.2.4L39.6 1.8C36.4-.7 20.9-4.6 10.1 3.4l9.1 15.9z"
+    />
+    <path
+      fill="#BF59CF"
+      d="M39 .8L28.4 19.3h5.3c1 0 1.8.8 1.8 1.8l-.3 3.1h19.5C54.2 12.6 47.2 4.8 39 .8z"
+    />
+    <path
+      fill="#AC44CF"
+      d="M54.7 23.5H35.5v-2.4c0-1-.8-1.8-1.8-1.8H19.1c-.9 0-1.7.8-1.7 1.8V32c0 1 .8 1.8 1.8 1.8h14.5c.4 0 .8-.2 1.2-.4l8.4 15.7c11.5-8.2 11.5-24.5 11.4-25.6z"
+    />
+  </g>
+  <g
+     id="g25"
+     style="fill:#f5f5f5"
+     transform="translate(0.7030015,-0.2824012)">
+    <use
+       xlink:href="#svg-camera"
+       id="use22"
+       style="filter:url(#attach-shadow)"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
+    <path
+       id="svg-camera"
+       d="M 33.8,34 H 18 c -0.9,0 -1.6,-0.7 -1.6,-1.6 v -11 c 0,-0.3 0.2,-0.7 0.4,-0.9 L 19,18.1 c 0.2,-0.2 0.6,-0.4 0.9,-0.4 h 2.6 c 0.3,0 0.7,0.2 0.9,0.4 l 1.4,1.5 h 9 c 0.9,0 1.6,0.7 1.6,1.6 v 11.2 c 0,0.9 -0.7,1.6 -1.6,1.6 z M 25.9,22.1 c -2.6,0 -4.7,2.1 -4.7,4.7 0,2.6 2.1,4.7 4.7,4.7 2.6,0 4.7,-2.1 4.7,-4.7 0,-2.6 -2.1,-4.7 -4.7,-4.7 z m 0,8 c -1.8,0 -3.3,-1.5 -3.3,-3.3 0,-1.8 1.5,-3.3 3.3,-3.3 1.8,0 3.3,1.5 3.3,3.3 0,1.8 -1.5,3.3 -3.3,3.3 z"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,96 @@
+{
+  "name": "syo-whats-app",
+  "description": "This project is created using Direflow",
+  "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "direflow",
+    "react",
+    "webcomponent"
+  ],
+  "homepage": "https://direflow.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Silind-Software/direflow"
+  },
+  "bugs": {
+    "email": "direflow@silind.com",
+    "url": "https://github.com/Silind-Software/direflow/issues/new"
+  },
+  "main": "build/direflowBundle.js",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "start": "direflow-scripts start",
+    "dev": "docker-compose -f develop-compose.yml up & direflow-scripts start",
+    "lint": "eslint . --ext .tsx --ext .ts",
+    "lint:fix": "eslint . --ext .tsx --ext .ts --fix",
+    "build": "direflow-scripts build",
+    "build:lib": "direflow-scripts build:lib",
+    "test": "direflow-scripts test",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+    "test:nowatch": "direflow-scripts test --watchAll=false --coverage"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.10.1",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@webcomponents/webcomponentsjs": "^2.4.3",
+    "axios": "^0.19.2",
+    "direflow-component": "3.4.14",
+    "direflow-scripts": "3.4.14",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "socket.io-client": "^2.3.0",
+    "typesafe-actions": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.8",
+    "@types/react": "16.9.3",
+    "@types/react-dom": "16.9.1",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-test-renderer": "16.9.1",
+    "@types/redux-saga": "^0.10.5",
+    "@types/socket.io-client": "^1.4.33",
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^7.2.0",
+    "jest-environment-jsdom-fourteen": "0.1.0",
+    "react-app-rewired": "2.1.3",
+    "react-test-renderer": "16.9.0",
+    "to-string-loader": "^1.1.6",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.9.3",
+    "webpack-cli": "^3.3.11"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "direflow-scripts/direflow-jest.config.js"
+    ]
+  },
+  "config-overrides-path": "direflow-webpack.js"
+}
